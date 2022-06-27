@@ -41,6 +41,12 @@ body{
 }
 .cabecera__lista__link{
     width: 200px;
+    background-color: rgb(243, 232, 234);
+    border: rgb(216, 133, 147);
+    transition: all 1s;
+}
+.cabecera__lista__link:hover{
+    transform: scale(1.2);
 }
 .galeria{
     display: grid;
